@@ -1,0 +1,56 @@
+.flow-builder {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.nodes-panel {
+  width: 200px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-right: 1px solid #ddd;
+}
+
+.description {
+  margin-bottom: 10px;
+}
+
+.react-flow__node-input {
+  padding: 8px 12px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: grab;
+}
+
+.react-flow-container {
+  flex-grow: 1;
+  height: 100%;
+}
+
+.text-node {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 12px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.text-node-input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.save-button {
+  margin: 20px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
